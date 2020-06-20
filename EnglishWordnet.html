@@ -1,0 +1,244 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=utf-8">
+        <title>English WordNet (wn-ja)</title>
+        </head>
+        <body>
+
+            <h1 align='center'>English WordNet</h1>
+            <p align="center">
+            <a href="index.html">Index</a> *
+            <a href="downloads.html">Downloads</a> *
+            <a href="pics.html">Pictures</a> *
+            <a href="bib.html">bib</a> *
+            <a href="links.html">Links</a> *
+            <a href="../index.en.html">English</a> 
+            </p>
+            <h2>What is English Word Net?</h2>
+            Japanese Wordnet is a Japanese concept dictionary. Each individual concept is grouped into a unit called "synset", and they are semantically linked to other synsets.
+            This dictionary was built based on the English word net.
+<h3>About search</h3>
+You can try it from<a href="http://nlpwww.nict.go.jp/wn-ja/cgi/wn-synset.cgi">"WordNet Search"</a>on the left frame .<br>
+<h4>Search from Japanese or English</h4>
+select a language in "Language" and press "Search WN".
+Click the link for the corresponding synset offset from the search results to display the synset contents.<br>
+<font color="#ff0000">Note) When searching from English, uppercase letters will not be hit, so be sure to enter all lowercase letters even when searching for proper names.</font>
+<h4>Search from synset offset (synset number, described later)</h4>
+No language selection required. Enter the number in the "Look up Word (or Synset)" window and press "Search WN".
+
+<h2>screenshot</h2>
+<!-- <img src="../synset_screenshot.png" alt="screenshot" width=1165 height=375> -->
+<img src="http://compling.hss.ntu.edu.sg/wnja/synset_screenshot-v1_1.png" alt="screenshot" width=1112 height=388>
+
+<ul>
+  <li><font color="#ff0000" size="4">1</font> synset number (synset offset))</li>
+  <li><font color="#ff0000" size="4">2</font> Synonyms (synonym)</li>
+  <li><font color="#ff0000" size="4">3</font> definition sentence/example sentence (gloss)</li>
+  <li><font color="#ff0000" size="4">4</font> Links with related synsets</li>
+  <li><font color="#ff0000" size="4">5</font> Links with other language resources</li>
+  <li><font color="#ff0000" size="4">6</font> Images</li>
+</ul>
+
+<h3><font color="#ff0000">1</font>  synset number (synset offset)</h3>
+<p>It is represented by "8 digit number + "-(half-width hyphen)" + alphabet. The alphabet represents part of speech,
+
+    <br><ul><li>n= noun</li><li>v= verb</li><li>a= adjective</li><li>r= adverb</li></ul><br>Is represented. A more specific explanation of part of speech will be given in <a href="#syno_details">this</a> section. Hereinafter, "8-digit number + "-(half-width hyphen)" + alphabet" is all synset number.
+</p>
+<h3><font color="#ff0000">2</font> Synonyms (synonym)</h3>
+<p>
+    A word used to describe the concept. The English version was created using the English Wordnet, and the Japanese version was created using multiple other language Wordnets and dictionaries for Japan. After that, we manually corrected it to some extent, but there are still some that have not been checked, and there are cases where errors are included or things that should be included are not included.<a href="#syno_details">Click here</a> please let us know.</p>
+    <h3><font color="#ff0000">3</font> definition sentence/example sentence (gloss)</h3>
+    The English text is from the English word net, and the Japanese is translated by us. When translating, I avoided translation as much as possible so that the meaning of the synset could be communicated directly. Concepts that are unfamiliar to jargon or Japanese speakers are difficult to translate, and may contain some errors. Also, since the focus was on attaching Japanese translations to all synsets, it seems that there are still other incorrect translations in comparison with mistranslations and related synsets. If you know of any such reason, come <a href="mailto:jwordnet@gmail.com">here</a> please let us know.
+    </p>
+    <h3><font color="#ff0000">4</font> Links with related synsets</h3>
+    Link information about the synset and the related synset. Each means the following (see <a href="http://ja.wikipedia.org/wiki/WordNet">Wikipedia</a>for more information).<br>
+    </p>    
+    <h3><font color="#ff0000">5</font> Links with other language resources</h3>
+<p>
+    It also links to information from other concept dictionaries to reinforce the information.
+
+</p>
+
+<h4>SUMO: Suggested Upper Merged Ontology</h4>
+
+It is a concept dictionary released by the IEEE, and since the link information with English word net has also been released, it is also used as it is in Japanese word net. "⊂" indicates that the synset is included in the SUMO concept, and "=" matches the SUMO concept.
+<h3><font color="#ff0000">6</font> Images</h3>
+<p>
+Please see the<a href="pics.html"> Pictures</a>.
+</p>
+
+
+    <table border="3" cellpadding="5">
+        <caption><strong>Link name and meaning
+        </strong></caption>
+        <tr>
+          <th>Abbreviation</th>
+          <th>Non-abbreviated name</th>
+          <th>English name</th>
+          <th>Meaning</th>
+          <th>An example
+        </th>
+        </tr>
+        <tr>
+          <td>Hype</td>
+          <td>Hypernym</td>
+          <td>Broader term</td>
+          <td>The synset is included in the other synset	</td>
+          <td>"canis familiaris" (02084071-n) is included in "domestic animal" (01317541-n) and "canid" (02083346-n)</td>
+        </tr>
+        <tr>
+          <td>Hypo</td>
+          <td>Hyponym</td>
+          <td>Subordinate word	</td>
+          <td>The synset includes the other synset	</td>
+          <td>"canis familiaris"(02084071-n) includes "toy canis familiaris"(02085374-n),"mutt"(02084861-n),"pooch"(02084732-n)</td>
+        </tr>
+        <tr>
+          <td>Mprt</td>
+          <td>Meronyms --- Part</td>
+          <td>Component (part)</td>
+          <td>The synset is composed of a part called the partner synse.</td>
+          <td>"canis familiaris" (02084071-n) has "flag" (02158846-n) as a part</td>
+        </tr>
+      
+        <tr>
+          <td>Hprt</td>
+          <td>Holonyms --- Part</td>
+          <td>Component (part)</td>
+          <td>The synset constitutes a partner synset as a part</td>
+          <td>"flag"(02158846-n) is a part of "canis familiaris"(02084071-n) and "cervid"(02430045-n)
+        </td>
+        </tr>
+        <tr>
+          <td>Hmem</td>
+          <td>Holonyms --- Member</td>
+          <td>Component (member)</td>
+          <td>The synset is a member of the partner synset</td>
+          <td>"canis familiaris" (02084071-n) is a member of "02083863-n" (canis) and "pack" (07994941-n)
+        </td>
+        </tr>
+        <tr>
+          <td>Mmem</td>
+          <td>Meronyms --- Member</td>
+          <td>Constituent elements (members)</td>
+          <td>The synset is composed by a member called the partner synset.</td>
+          <td>"canis"(02083863-n) has "canis familiaris"(02084071-n), "jackal"(02115096-n), and "wolf"(02114100-n) as members
+        </td>
+        </tr>
+        <tr>
+          <td>Msub</td>
+          <td>Meronyms --- Substance</td>
+          <td>Constituent elements (substance/material)</td>
+          <td>The synset is composed of a substance or material called the partner synset	</td>
+          <td>"ozone" (14972807-n) has the substance "atomic number 8" (14648100-n) as a component
+        </td>
+        </tr>
+        <tr>
+          <td>Hsub</td>
+          <td>Holonyms --- Substance</td>
+          <td>Component (substance/material)</td>
+          <td>The synset is a substance or material that composes the other synset.</td>
+          <td>"atomic number 8" (14648100-n) is a substance that constitutes "ozone" (14972807-n), "water" (14845743-n) and "air" (14841267-n)
+        </td>
+        </tr>
+        
+</table>
+<h2><a name="syno_details">Part of speech/Synonyms details</a></h2>
+<h3>Relationship between synset number and part of speech</h3>
+<p>
+    Although the part of speech is shown at the end of the synset number, it may be different from the Japanese part of speech because it uses the English word net as it is.<br>Specifically, it includes approximately the following:
+
+</p>
+<!--<h5>n=名詞</h5> 名詞、複合名詞、名詞句
+<h5>v=動詞</h5> 和語動詞(ウ段で終止する動詞)、サ変動詞(後ろに「する」を付けて使用する動詞)、複合動詞、動詞句(00017031-v「いびきをかく」等)
+<h5>a=形容詞</h5> 形容詞、形容動詞、連体詞、接頭詞(00793426-a「準-」等)、動詞を加工したもの(「XXした」「XXする」等、連体修飾の形)
+<h5>r=副詞</h5> 副詞、形容詞連用形、副詞句-->
+<table border="3" cellpadding="5">
+    <caption><strong>Part of speech correspondence table</strong></caption>
+    <tr>
+      <th>End</th>
+      <th>Meaning part of speech (in English)</th>
+      <th>Corresponding (Japanese) part of speech	</th>
+      <th>Explanation</th>
+      <th>Actual registration example</th>
+    </tr>
+    <tr>
+      <td><strong>n</strong></td>
+      <td>noun</td>
+      <td>noun<br>compound nouns</td>
+      <td><br>A combination of two or more noun</td>
+      <td>"Dog"<br>"Quality Control"      </td>
+    </tr>
+    <tr>
+      <td><strong>v</strong></td>
+      <td>verb</td>
+      <td>Japanese verb<br>sa<br>verb<br>verb verb phrase	</td>
+      <td>C. Verbs that end with a dan Verb
+        <br>that is used with "suru" added to
+        <br>the end Verb that combines two or more verbs
+        <br>"Object + verb"</td>
+      <td>"Write"<br>"Study"<font size="2" color="#ff0000">"Pull out"</font><br>"Pull out"<br>"Snoring"</td>
+    </tr>
+</table>
+
+<h3>Actual synonyms</h3>
+
+<h5>About selection</h5>
+When I checked it manually, I chose a word that could express the concept as accurately as possible. Therefore, Japanese synonyms may differ from the general translation of English synonyms.
+For example, "seal" of marine animals is generally translated as "seal", but it is correct "generic name for seals and sea lions", so "seal" (02076196-n) is synonymous with Is not registered.
+"Seal" matches the meaning of the subordinate concept "earless seal" (02079389-n), so it is registered as a synonym here.
+However, the actual synset may include not only the words that fit the definition properly, but also the subordinate concepts. For example, "Western dog" included in the synonym of "dog" (02084071-n).
+This is a tentative measure because no matching synset currently exists, and we plan to deal with it sequentially, such as creating a new synset.<br>
+<!--また、現在では使用頻度の低い語も同義語に含まれている場合もあります。-->
+<h5>Honorific/Slang</h5>
+Honorifics and slang are handled differently for each synset.<br>
+Normally, "mother" (10332385-n) is treated as a synonym for the same synset, as the synonym "mother" and its respected word "mother" are included, but "marihuana"( 02949691-n) "Marijuana" and its common name "weed" (03990834-n) "grass" may be separate synsets.<br>
+This difference in handling comes from English WordNet (the definition of synset of English WordNet and the relationship between synsets are not modified), and if it corresponds to this, it will be done in step with English WordNet. I think it will happen.
+<h5>About notation</h5>
+Basically, parentheses and symbols are not used for the synonyms of Japanese word net (except "-" added to the prefix).<br>
+This is also because it was intended to be read by a computer, but I think that basically anything that does not match the concept without parentheses is inappropriate as a synonym.
+In addition, we are not currently able to deal with the difference in notation.<br>
+For example, "pull out", "pull out", "pull out" and "pull out" are treated as completely separate words. This is also going to be organized.<br>
+However, the correspondence regarding "reading" is undecided, and it is not specified whether "stop" is "stop" or "stop".
+
+<h5>For each part of speech</h5>
+<h5>n=noun</h5>
+Words that have both nouns and adjective parts of speech in a general Japanese dictionary are basically not registered in the n=noun synset.<br>
+For example, in the case of "poor badness", the expression "extremely bad" can be expressed as a noun, but the essence is an adjective and is limited to several expressions such as "extremely XX". Therefore, I registered only in the a=adjective synset, and instead registered "roughness" in the n=noun synset.
+<br>
+<!--もちろん、明確に名詞として使える語はn=名詞とa=形容詞の両方に登録しています。-->
+<h5>v=verb</h5>
+It is registered in the final form, or (when the syllable is used alone) with the word "do".<br>
+I avoided verb phrases as much as possible, but in some cases they are registered as synonyms if they are unavoidable for expressing the concept.
+<br>
+For example, "snoring" for "snore" (00017031-v) is expressed in English as "snore", but in Japanese it is only "snoring" no matter how concise. I registered because I can't help it.
+
+
+
+<h2>Other</h2>
+<h3>When the expected information does not hit...</h3>
+Try changing the notation.<br>
+As mentioned above, we are not able to support different notations. What you hit may change depending on the difference between kanji ⇔ kana and send kana.<br>
+Alternatively, please refer to the synset above or below the hit synset.<br>
+There are cases where there is a real difference in meaning, like the relationship between "seal" and "seal" mentioned above.
+
+<h3>If you find the search form difficult to use...</h3>
+In addition, there is a search page created by our Language Grid Project and a page created by volunteers.<br>
+Also, Japanese Wordnet data is available for free ( see also<a href='../license.txt'>license</a>), and volunteers also created front ends for several programming languages ​​(Perl depends on this project). , If you have experience, please challenge yourself.<br>
+These are linked from the<a href="index.html">"Overview"</a>page.
+
+<hr>
+<address>
+<strong><a href="http://www3.ntu.edu.sg/home/fcbond/">Francis Bond</a></strong> 
+&lt;<a href="mailto:bond@ieee.org">bond@ieee.org</a>&gt;
+<br>
+<br> <a href="http://linguistics.hss.ntu.edu.sg/">Linguistics and Multilingual Studies</a>
+<br> <a href="http://www.ntu.edu.sg/">Nanyang Technological University</a>
+<br> &amp;
+<br><a href="http://www.nict.go.jp/index.html">National Institute of Information and Communications Technology</a>  
+</address>
+
+</body>
+</html>
